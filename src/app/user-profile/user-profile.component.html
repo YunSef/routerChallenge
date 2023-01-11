@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="card_profile">
+        <img [src]="user.photo">
+        <input type="text" [(ngModel)] = "user.quote" aria-ng>
+        <p>{{user.name}} {{user.firstName}}</p>
+        <p *ngIf = "visibility">{{user.age}}</p>
+        <p>{{user.quote}}</p>
+        <button (click) = "cacheAge()">Clear age</button>
+    </div>
+</div>

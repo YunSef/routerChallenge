@@ -1,0 +1,11 @@
+.card_profile {
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
